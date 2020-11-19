@@ -45,7 +45,7 @@ Our team decided how machine learning will predict the fraud Transactions. We se
 * Access at local host: http://127.0.0.1:5000/
 
 ### Remote Access
-* [Heroku] https://credit-card-detect.herokuapp.com/
+* [Heroku] https://credit-cardapp.herokuapp.com/
 
 
 
