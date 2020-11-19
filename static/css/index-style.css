@@ -1,0 +1,127 @@
+body, html {
+    height: 100%;
+}
+
+/* The styles for the parallax */
+/* The hero image */
+.hero-image {
+    /* padding-top: 20%; */
+
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("../images/sustainability.jpg");
+  /* background-image: url("../images/energy_home.png"); */
+  /* Set a specific height */
+  height: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* .energy-img {
+    height: 100%;
+    width: 100%;
+} */
+#img-hydro {
+    position: absolute;
+    left: 4%;
+    top: 40%;
+}
+
+#img-hydrogen {
+    position: absolute;
+    left: 8%;
+    top: 20%;
+}
+
+#img-solar {
+    position: absolute;
+    right: 15%;
+    top: 2%;
+}
+
+#img-wind {
+    position: absolute;
+    left: 15%;
+    top: 2%;
+}
+
+#img-bio {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+}
+
+#img-geo {
+    position: absolute;
+    right: 4%;
+    top: 40%;
+}
+
+#img-tidal {
+    position: absolute;
+    right: 1%;
+    top: 60%;
+}
+
+/*---------------------------------------------------------*/
+.example {
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;    
+    text-align: center;
+    /* height: 9%;
+    width: 12%;  */
+  }
+  .example .fadedbox {
+    background-color: #666666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 100%; 
+    height: 100%;
+    /* padding: 130px 20px; */
+  }
+  .example:hover .fadedbox {
+    opacity: 0.8;
+  }
+  .example .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+  }
+  .example .title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+  }
+  .example:hover .title,
+  .example:focus .title {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }

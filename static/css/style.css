@@ -1,0 +1,37 @@
+#credit {
+    position: relative;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+}
+#ccard {
+    offset-position:center;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+
+.footer {
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    height: 6%;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#foot-note {
+    padding-top: 5%;
+    vertical-align: middle;
+    height: 50%;
+}
+

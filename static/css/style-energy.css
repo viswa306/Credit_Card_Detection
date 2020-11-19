@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+}
+#homebtn {
+    font-size: medium;
+    font-stretch: ultra-expanded;
+    font-family: 'Trebuchet MS', 'Lucida Sans', 'Lucida Grande', Arial, 'Lucida Sans Unicode', sans-serif;
+    
+}
+.navbar .bg-dark {
+    background-color: darkslategray;
+}
+
+
+.footer {
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 6%;
+    background-color: rgb(28, 29, 29);
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+#foot-note {
+    padding-top: 5%;
+    vertical-align: middle;
+    height: 50%;
+}
+
+#desc-page {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#desc-title {
+    color:teal;
+}
+.desc-head {
+    color:blue;
+}
+.desc-subhead {
+    color: rgb(33, 51, 3)
+}

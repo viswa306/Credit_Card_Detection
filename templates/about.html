@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Predictions</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/blog/">
+
+    <!-- Bootstrap core CSS -->
+<!-- <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../static/css/blog.css" rel="stylesheet">
+    <link href="../static/css/style.css"  rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-2">
+    <nav class="nav d-flex justify-content-center">
+      <a class="p-2 text-muted" href="/">Home</a>
+      <a class="p-2 text-muted" href="/analysis">Analysis</a>
+      <a class="p-2 text-muted" href="/prediction">Prediction</a>
+      <a class="p-2 text-muted" href="/about">About</a>
+    </nav>
+  </div>
+
+    <div class = "row">
+        <img id="ccard" src="../static/images/imgAbout.jpg" class="center"/>
+    </div>
+
+    <br><br>
+    <p>This is a simulated credit card transaction dataset containing legitimate and fraud transactions from 
+        the duration January 1, 2019 – Dec 31, 2020. It covers credit cards of 1000 customers doing transactions 
+        with a pool of 800 merchants.</p>   
+    <h6>Data Sources:</h6>
+    <li>https://spd.group/machine-learning/credit-card-fraud-detection/#What_is_Credit_Card_Fraud_Detection_and_Prevention</li>
+    <li>https://www.researchgate.net/post/Where_can_I_find_Credit_Card_fraud_detection_data_set</li>
+    <li>https://www.kaggle.com/kartik2112/fraud-detection?select=fraudTrain.csv</li>
+    
+    <p>In this project, Machine Learning we cleaned the data and selected the features we would use from the fraudTrain.csv</p>
+    
+    
+    <h6>Data processing</h6>
+    <li>Clean and modify the data using Pandas and Jupyter Notebook</li>
+    <li>Use Random Forest Classifier, Logistic Regression, XGBoost Model, Gaussian Naïve Bayes Model, K-Nearest Neighbor</li>
+    <li>Use Confusion Matrix for performance measurement for machine learning classification</li>
+    <li>Plotly and Tableau to visualize the data</li>
+    <li>Use Heroku and PostgreSQL as the database</li>
+    <li>Use Python as the server-side language, Flask as the web server and SQLAlchemy as the ORM</li>
+    <li>Use HTML, CSS and JavaScript on the front end</li>
+    <br>
+    
+    <h6>Analysis</h6>
+    <p>In Credit Card Fraud, one of the most important part is balancing the samples. After splitting and scaling 
+    the test and train data, we used Logistic Regression and got 82 % accuracy. With Gaussian Naive Bayes, got 
+    67 % accuracy. So, we noticed that Logistic Regression is the best model for prediction.
+    On the other hand, we visualized the holiday season the highest amount and number of Fraud Transactions 
+    on Tablaeu. </p>
+    
+    <h6>Development Team</h6>
+    Reshmi Neelakandan - @rshmnkgit <br>
+    Viswajani Paladugu - @viswa306<br>
+    Kursad Altayli - @kdaltayli<br>
+
+
+    <!-- =========================================================================== -->
+    <!--                                FOOTER                                       -->
+    <!-- =========================================================================== -->
+    <div class="row"> <br> </div>
+    <div class="row"> <br> </div>
+    <div class="footer">
+        <div class="col-md-12" id="footerbar">
+        </div>
+        <span id="foot-note">Copyright: Data Visualization Bootcamp 2020</span>
+    </div>
+
+</body>
+</html>
